@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Главная</title>
+</head>
+<style>
+    @font-face {
+        font-family: "Playfair Display";
+        src: url(fonts/PlayfairDisplay-Regular.ttf) format("ttf"),
+            url(fonts/PlayfairDisplay-Regular.woff) format("woff"),
+            url(fonts/PlayfairDisplay-Regular.woff2) format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #EBEBEB;
+        font-family: Arial, sans-serif;
+    }
+
+    *,
+    ::after,
+    ::before {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased !important;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        outline: none !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 400;
+    }
+
+    body,
+    div,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    ul,
+    li,
+    a,
+    form {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        text-decoration: none;
+        line-height: 1;
+    }
+
+    button,
+    input,
+    textarea {
+        outline: none !important;
+        -webkit-transition: all .125s;
+        -o-transition: all .125s;
+        transition: all .125s;
+        font-family: inherit;
+    }
+
+    table {
+        border: none;
+        border-collapse: collapse;
+    }
+
+    .main-table {
+        width: 600px;
+        max-width: 100%;
+        background: #FFF;
+        margin: 0 auto;
+    }
+</style>
+
+
+<body>
+    <table class="main-table">
+        <tr>
+            <td>
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="padding: 23px;background-image: url(../img/header-bg.png); background-size:cover;background-position: center;">
+                            <img style="width: 120px; max-width: calc(100vw / 5); display: block; margin: 0 auto;" src="img/logo.svg" alt="">
+                        </td>
+                    </tr>
+                </table>
+
+
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="padding: 40px 20px;border-top: 1px solid #F8F8F8;">
+                            <h1 style="margin-bottom: 20px; font-size: 28px;line-height: 129%;">Dobar dan, Milana!</h1>
+                            <p style="font-size: 14px;line-height: 171%;margin-bottom: 12px;">
+                                Žao nam je, ali Vaša porudžbina <span style="color: #EDAE00;font-weight: 700;">#55639</span> je otkazana.
+                            </p>
+                            <p style="font-size: 14px;line-height: 171%;">
+                                <b>Razlog:</b> Odlučili ste da izvršite novu porudžbinu.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+                <div style="overflow-x: auto;">
+                    <table style="min-width: 500px; width: 100%;">
+                        <tr>
+                            <td style="padding: 40px 20px;border-top: 1px solid #F8F8F8;">
+                                <h2 style="margin-bottom: 20px; font-size: 20px;line-height: 120%;">
+                                    Sadržaj Vaše porudžbine <span style="color: #EDAE00">#55639</span>
+                                </h2>
+                                <table style="width: 100%;">
+                                    <thead>
+                                        <tr>
+                                            <th style="padding-bottom: 8px;border-bottom: 1px solid #F2F2F2;font-size: 12px;line-height: 150%;font-weight: 400;text-align:left;width: 90px;">Proizvod</th>
+                                            <th style="padding-bottom: 8px;border-bottom: 1px solid #F2F2F2;"></th>
+                                            <th style="padding-bottom: 8px;border-bottom: 1px solid #F2F2F2;font-size: 12px;line-height: 150%;font-weight: 400;text-align:left;width: 96px;padding-left: 16px;">Količina</th>
+                                            <th style="padding-bottom: 8px;border-bottom: 1px solid #F2F2F2;font-size: 12px;line-height: 150%;font-weight: 400;text-align:left;width: 96px;padding-left: 16px;">Cena</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 90px; padding-top: 16px;">
+                                                <div style="vertical-align: middle; text-align:center; display: table-cell; position: relative; padding: 14px; position: relative; width: 90px;height: 90px;background: #F8F8F8;">
+                                                    <img style="max-width: 100%;" src="img/product.png" alt="">
+                                                </div>
+                                            </td>
+                                            <td style="padding-left: 20px; padding-top: 16px;">
+                                                <p style="font-size: 12px;line-height: 150%; margin-bottom: 8px;">
+                                                    Puder za lice za suvu kožu
+                                                </p>
+                                                <p style="font-size: 12px;line-height: 150%; color: #6D6D6D; margin-bottom: 8px;">
+                                                    Gucci Cuilty
+                                                </p>
+                                                <table>
+                                                    <tr>
+
+                                                        <td style="vertical-align: middle;padding-right: 6px;">
+                                                            <div style="margin-top: 3px; padding: 2px; background-image: url(img/round.png); background-size: 100% auto; background-position: center; display: inline-block;width: 12px;height: 12px; border-radius: 50%;">
+                                                                <div style="background-color: #F8AF86;width: 100%;height: 100%;border-radius: 50%;"></div>
+                                                            </div>
+                                                        </td>
+                                                        <td style="vertical-align: middle;">
+                                                            <p style="display: inline-block; font-size: 12px;line-height: 150%; color: #6D6D6D;">
+                                                                Mlečna lagana krema
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="display: inline-block; font-size: 12px;line-height: 150%;min-height: 36px;">
+                                                    2
+                                                </p>
+                                            </td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 12px;line-height: 150%;">
+                                                    1 596
+                                                </p>
+                                                <p style="margin-top: 4px; font-size: 10px;line-height: 140%; color: #6D6D6D;">
+                                                    798 х 2
+                                                </p>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td style="width: 90px; padding-top: 16px;">
+                                                <div style="vertical-align: middle; text-align:center; display: table-cell; position: relative; padding: 14px; position: relative; width: 90px;height: 90px;background: #F8F8F8;">
+                                                    <img style="max-width: 100%;" src="img/product2.png" alt="">
+                                                </div>
+                                            </td>
+                                            <td style="padding-left: 20px; padding-top: 16px;">
+                                                <p style="font-size: 12px;line-height: 150%; margin-bottom: 8px;">
+                                                    Losion za obnavljanje suve kože
+                                                </p>
+                                                <p style="font-size: 12px;line-height: 150%; color: #6D6D6D; margin-bottom: 8px;">
+                                                    Naj Oleari
+                                                </p>
+                                                <table>
+                                                    <tr>
+
+                                                        <td style="vertical-align: middle;">
+                                                            <p style="display: inline-block; font-size: 12px;line-height: 150%; color: #6D6D6D;">
+                                                                28 ml
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="display: inline-block; font-size: 12px;line-height: 150%;min-height: 36px;">
+                                                    2
+                                                </p>
+                                            </td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 12px;line-height: 150%;">
+                                                    3 198
+                                                </p>
+                                                <p style="margin-top: 4px; font-size: 10px;line-height: 140%; color: #6D6D6D;">
+                                                    1 599 х 2
+                                                </p>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td style="width: 90px; padding-top: 16px;">
+                                                <div style="vertical-align: middle; text-align:center; display: table-cell; position: relative; padding: 14px; position: relative; width: 90px;height: 90px;background: #F8F8F8;">
+                                                    <img style="max-width: 100%;" src="img/product3.png" alt="">
+                                                </div>
+                                            </td>
+                                            <td style="padding-left: 20px; padding-top: 16px;">
+                                                <p style="font-size: 12px;line-height: 150%; margin-bottom: 8px;">
+                                                    Losion za obnavljanje suve kože
+                                                </p>
+                                                <p style="font-size: 12px;line-height: 150%; color: #6D6D6D; margin-bottom: 8px;">
+                                                    Naj Oleari
+                                                </p>
+                                                <table>
+                                                    <tr>
+
+                                                        <td style="vertical-align: middle;padding-right: 6px;">
+                                                            <div style="margin-top: 3px; padding: 2px; background-image: url(img/round.png); background-size: 100% auto; background-position: center; display: inline-block;width: 12px;height: 12px; border-radius: 50%;">
+                                                                <div style="background-color: #FF515A;width: 100%;height: 100%;border-radius: 50%;"></div>
+                                                            </div>
+                                                        </td>
+                                                        <td style="vertical-align: middle;">
+                                                            <p style="display: inline-block; font-size: 12px;line-height: 150%; color: #6D6D6D;">
+                                                                Nežno ružičasta
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="display: inline-block; font-size: 12px;line-height: 150%;">
+                                                    1
+                                                </p>
+                                            </td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 12px;line-height: 150%;">
+                                                    350
+                                                </p>
+                                            </td>
+                                        </tr>
+
+
+                                        <tr>
+                                            <td colspan="4" style="padding-top: 16px; border-bottom: 1px solid #F2F2F2;"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="width: 90px; padding-top: 16px;"></td>
+                                            <td style="padding-left: 20px; padding-top: 16px;"></td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 12px;line-height: 150%;color: #6D6D6D;">
+                                                    Međuzbir
+                                                </p>
+                                            </td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 12px;line-height: 150%;">
+                                                    2 747
+                                                </p>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="width: 90px; padding-top: 16px;"></td>
+                                            <td style="padding-left: 20px; padding-top: 16px;"></td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 12px;line-height: 150%;color: #6D6D6D;">
+                                                    Popust
+                                                </p>
+                                            </td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 12px;line-height: 150%;">
+                                                    -247
+                                                </p>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="width: 90px; padding-top: 16px;"></td>
+                                            <td style="padding-left: 20px; padding-top: 16px;"></td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 12px;line-height: 150%;color: #6D6D6D;">
+                                                    Dostava
+                                                </p>
+                                            </td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 12px;line-height: 150%;">
+                                                    Besplatno
+                                                </p>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="4" style="padding-top: 16px; border-bottom: 1px solid #F2F2F2;"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="3" style="width: 90px; padding-top: 16px;">
+                                                <p style="font-size: 14px;line-height: 172%;">
+                                                    Sve
+                                                </p>
+                                            </td>
+                                            <td style="width: 96px; padding: 16px 0 0 16px;">
+                                                <p style="font-size: 14px;line-height: 172%;">
+                                                    5 144 RSD
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="padding: 0 20px 40px;">
+                            <p style="font-size: 14px;line-height: 171%;margin-bottom: 12px;">
+                                Ukoliko želite nešto drugo da naručite, uvek nam je drago da Vas vidimo.
+                            </p>
+                            <p style="font-size: 14px;line-height: 171%;">
+                                Obavezno pogledajte naše <a href="" style="color: #EDAE00;font-weight: 700;">specijalne ponude</a>.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="border-top: 1px solid #F8F8F8; padding: 55px;background-image: url(../img/about.png); background-size:cover;background-position: center;">
+                            <div style="font-family: 'Playfair Display',sans-serif; font-size: 36px;line-height: 133%;text-transform: uppercase;text-align:center;">
+                                Hvala Vam što ste nas izabrali
+                            </div>
+                            <div style="font-family: 'Playfair Display',sans-serif;margin-top: 12px;color: #6D6D6D;font-size: 14px;line-height: 143%;text-align:center;text-transform: uppercase;">
+                                S poštovanjem, VESNA.RS
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="border-top: 1px solid #F8F8F8; padding: 40px 20px;background: #F8F8F8;">
+                            <p style="font-size: 12px;line-height: 150%;text-align:center;color: #6D6D6D;margin-bottom: 8px;">
+                                Ovo je automatsko obaveštenje. Molimo Vas da ne odgovarate na ovaj mejl.
+                            </p>
+                            <p style="font-size: 12px;line-height: 150%;text-align:center;color: #6D6D6D;margin-bottom: 20px;">
+                                Za više informacija, slobodno nas kontaktirajte.
+                            </p>
+                            <div style="text-align:center;margin-bottom: 15px;">
+                                <span style="color: #6D6D6D;font-size: 14px;line-height: 171%;margin-right: 2px;">
+                    Telefon:
+                </span>
+                                <a href="tel:+381114221100" style="color: #000;font-size: 14px;line-height: 171%;">
+                                    + 381 11 422 11 00
+                                </a>
+                                <span style="color: #6D6D6D;font-size: 14px;line-height: 171%;margin-left: 15px; margin-right: 2px;">
+                    E-pošta:
+                </span>
+                                <a href="mailto:info@vesna.rs" style="color: #000;font-size: 14px;line-height: 171%;">
+                                    info@vesna.rs
+                                </a>
+                            </div>
+                            <div style="text-align:center;margin-bottom: 20px;">
+                                <div style="display: inline-block;">
+                                    <table>
+                                        <tr>
+                                            <td style="padding-right: 9px;">
+                                                <a href="" style="display: block; padding-top: 4px;"><img style="display: inline-block; margin-top: -2px;" src="img/viber.svg" alt=""></a>
+                                            </td>
+                                            <td>
+                                                <a href="" style="display: inline-block; color: #000;font-size: 14px;line-height: 171%;">
+                                                    Viber
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div style="display: inline-block; margin-left: 18px;">
+                                    <table>
+                                        <tr>
+                                            <td style="padding-right: 9px;">
+                                                <a href="" style="display: block; padding-top: 4px;"><img style="display: inline-block; margin-top: -2px;" src="img/whatsapp.svg" alt=""></a>
+                                            </td>
+                                            <td>
+                                                <a href="" style="display: inline-block; color: #000;font-size: 14px;line-height: 171%;">
+                                                    WhatsApp
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div style="display: inline-block; margin-left: 18px;">
+                                    <table>
+                                        <tr>
+                                            <td style="padding-right: 9px;">
+                                                <a href="" style="display: block; padding-top: 4px;"><img style="display: inline-block; margin-top: -2px;" src="img/tg.svg" alt=""></a>
+                                            </td>
+                                            <td>
+                                                <a href="" style="display: inline-block; color: #000;font-size: 14px;line-height: 171%;">
+                                                    Telegram
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <p style="font-size: 12px;line-height: 150%;text-align:center;color: #6D6D6D;margin-bottom: 20px;">
+                                Sati prijema poziva: <span style="color: #000; margin-left: 5px;">Ponedeljak-petak: 08:00 – 16:00</span>
+                            </p>
+                            <p style="font-size: 12px;line-height: 150%;text-align:center;color: #6D6D6D;">
+                                <span>VESNA MARKET DOO </span>
+                                <span style="margin-left: 18px;">PIB 113694069</span>
+                                <span style="margin-left: 18px;">MB 21914533</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
